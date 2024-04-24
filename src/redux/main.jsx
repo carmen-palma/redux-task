@@ -9,3 +9,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <App />
   </React.StrictMode>,
 )
+
+import { Provider } from 'react-redux';
+import store from './store.js';
